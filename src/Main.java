@@ -8,7 +8,7 @@ public class Main {
         double restMass = Functions.userInput("Enter rest mass (kg): ");
         double velocity = Functions.userInput("Enter velocity (ms^-1): ");
 
-        for (int i = 0; i < 1000000; i++) {
+        for (int i = 1000000; i < speedOfLight; i++) {
             System.out.printf("Relativistic mass: %f, velocity: %d%n", Functions.relativisticMass(restMass, i, speedOfLight), i);
         }
     }
