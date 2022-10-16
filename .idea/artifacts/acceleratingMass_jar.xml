@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="acceleratingMass:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/acceleratingMass_jar</output-path>
+    <root id="archive" name="acceleratingMass.jar">
+      <element id="module-output" name="acceleratingMass" />
+    </root>
+  </artifact>
+</component>
