@@ -9,7 +9,9 @@ public class Main {
         double velocity = Functions.userInput("Enter velocity (ms^-1): ");
 
         for (int i = 1000000; i < speedOfLight; i++) {
-            System.out.printf("Relativistic mass: %f, velocity: %d%n", Functions.relativisticMass(restMass, i, speedOfLight), i);
+            if (i % 1000 == 0) {
+                System.out.printf("Relativistic mass: %f, velocity: %d%n", Functions.relativisticMass(restMass, i, speedOfLight), i);
+            }
         }
     }
 }
